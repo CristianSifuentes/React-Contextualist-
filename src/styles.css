@@ -1,0 +1,19 @@
+body{
+  font-family: system-ui, sans-serif;
+  background: #f6f8fa;
+  display: grid;
+  place-items: center;
+  height: 100dvh;
+  margin: 0;
+}
+.card{
+  padding: 2rem;
+  background: white;
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 12px #00000014;
+  width: 360px;
+}
+.stack > * + *{ margin-top: .5rem; }
+.stack-row{ display:flex; }
+.stack-row > * + *{ margin-left: .5rem; }
+.done{ text-decoration: line-through; opacity:.6; }
