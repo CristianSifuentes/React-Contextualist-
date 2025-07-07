@@ -6,7 +6,7 @@ export default function App() {
   return (
     <TodoProvider>
       <main className="card">
-        <h1>📝 Todo (React 19)</h1>
+        <h1>Todo (React 19)</h1>
         <AddTodo />
         <TodoList />
       </main>
